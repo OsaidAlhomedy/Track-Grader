@@ -21,7 +21,6 @@ formEl.addEventListener('submit', handleSub);
 
 function handleSub(event) {
   event.preventDefault();
-  console.log(Grades.array);
 
   let studentName = event.target.studentName.value;
   let course = event.target.courseSelect.value;
