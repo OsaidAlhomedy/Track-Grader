@@ -87,6 +87,9 @@ Grades.prototype.passDecide = function (grade) {
   return returnedGrade;
 };
 
+
+//Beyond this line is for LocalStoring and LocalGetting
+
 function storeLocal() {
   localStorage.setItem('gradesArray', JSON.stringify(Grades.array));
 }
