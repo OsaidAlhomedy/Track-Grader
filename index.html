@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Track Grader</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Grades Tracker</h1>
+    </header>
+    <main>
+      <form action="" id="form">
+        <label for="studentName">Student Name</label>
+        <br>
+        <input type="text" id="studentName" name="studentName" required />
+        <br />
+        <label for="courseSelect">Courses</label>
+        <br>
+        <select name="courseSelect" id="courseSelect">
+          <option value="Arabic">Arabic</option>
+          <option value="English">English</option>
+          <option value="Science">Science</option>
+          <option value="Math">Math</option>
+          <option value="Art">Art</option>
+        </select>
+        <br />
+        <input type="submit" name="submit" id="submit" />
+      </form>
+
+      <section id="tableContainer">
+        <table id="table"></table>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

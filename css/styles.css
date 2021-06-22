@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/imgs/math.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+    background:linear-gradient(180deg, rgba(50,50,50,1) 0%, rgba(0,0,0,1) 100%);
+    margin-bottom: 40px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+form{
+    background-color: rgba(179, 116, 231, 0.527);
+    padding: 30px;
+    text-align: center;
+}
+
+label{
+    color:white;
+
+}
+
+input, select{
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#tableContainer{
+    background-color: rgba(179, 116, 231, 0.527);
+    padding: 40px;
+}
+
+table *{
+    padding: 20px;
+    border: white 3px solid;
+}
+th{
+    background: #1b1b1b;
+    color: white;
+}
+td{
+    background: #555555;
+    color: white;
+    text-align: center;
+}
